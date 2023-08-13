@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Site Aperture">
+    <meta name="keywords" content="Aperture, Photography, Videography">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Aperture</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <svg width="128" height="31">
+                    <use href="./img/sprite.svg#logo"/>
+                </svg>
+                <div class="header-links">
+                    <p>Business areas</p>
+                    <nav>
+                        <a href="#sec-what">Featured images</a>
+                        <a href="#sec-clients">Gear cage</a>
+                        <a href="#contact">Contact</a>
+                        <button class="btn header">Get template</button>
+                    </nav>
+                </div>
+
+                <input class="checkbox" type="checkbox" id="burger"/>
+                <label class="hamburger-lines" for="burger">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </label>
+                <ul class="header-links__mobile">
+                    <li><a href="#">Featured images</a></li>
+                    <li><a href="#">Gear cage</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><button class="btn header">Get template</button></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="what-we-do" id="sec-what">
+            <div class="container">
+                <h2>What we do.</h2>
+                <h3>The areas that we're specialized in.</h3>
+                <div class="flex-cards">
+                    <div class="card">
+                        <p>Product Photography</p>
+                        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam. Lorem ipsum dolor sit amet.</p>
+                        <button class="btn icon-btn">
+                            <svg width="32" height="32" style="min-width: 32px">
+                                <use href="./img/sprite.svg#btn-polygon"/>
+                            </svg>
+                            Read more
+                        </button>
+                    </div>
+                    <div class="card">
+                        <p>Architecture Photography</p>
+                        <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</p>
+                        <button class="btn icon-btn">
+                            <svg width="32" height="32" style="min-width: 32px">
+                                <use href="./img/sprite.svg#btn-polygon"/>
+                            </svg>
+                            Read more
+                        </button>
+                    </div>
+                    <div class="card">
+                        <p>Drone Photography</p>
+                        <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                        <button class="btn icon-btn">
+                            <svg width="32" height="32" style="min-width: 32px">
+                                <use href="./img/sprite.svg#btn-polygon"/>
+                            </svg>
+                            Read more
+                        </button>
+                    </div>
+                    <div class="card">
+                        <p>Wildlife Photography</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+                        <button class="btn icon-btn">
+                            <svg width="32" height="32" style="min-width: 32px">
+                                <use href="./img/sprite.svg#btn-polygon"/>
+                            </svg>
+                            Read more
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients" id="sec-clients">
+            <div class="container">
+                <h2>Past clients</h2>
+                <h3>Trusted by your favourite companies</h3>
+                <div class="flex-clients">
+                    <div class="clients-logo">
+                        <img src="./img/logo-client1.jpg" alt="logo-client1">
+                    </div>
+                    <div class="clients-logo">
+                        <img src="./img/logo-client2.jpg" alt="logo-client2">
+                    </div>
+                    <div class="clients-logo">
+                        <img src="./img/logo-client3.jpg" alt="logo-client3">
+                    </div>
+                    <div class="clients-logo">
+                        <img src="./img/logo-client4.jpg" alt="logo-client4">
+                    </div>
+                    <div class="clients-logo">
+                        <img src="./img/logo-client5.jpg" alt="logo-client5">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="help">
+            <div class="help-container">
+                <h2>Need help with photography or videography?</h2>
+                <h3>We're here for you!</h3>
+                <button class="btn btn-touch">
+                    <svg width="32" height="32" style="min-width: 32px">
+                        <use href="./img/sprite.svg#btn-polygon"/>
+                    </svg>
+                    Get in touch
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="footer-logo">
+                    <svg width="128" height="31">
+                        <use href="./img/sprite.svg#logo"/>
+                    </svg>
+                    <p>Photographers & videographers capturing the world around us.</p>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-business">
+                        <p>Business areas</p>
+                        <nav>
+                            <a href="#">Product Photography</a>
+                            <a href="#">Architecture Photography</a>
+                            <a href="#">Drone Photography</a>
+                            <a href="#">Wildlife Photography</a>
+                        </nav>
+                    </div>
+                    <div class="footer-pages">
+                        <p>Pages</p>
+                        <nav>
+                            <a href="#">Gear cage</a>
+                            <a href="#">Featured images</a>
+                            <a href="#">Contact</a>
+                            <a href="#">Style guide</a>
+                            <a href="#">Instructions</a>
+                            <a href="#">Changelog</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <div class="footer-newsletter-text">
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Read about all the things we do.</p>
+                </div>
+                <div class="footer-newsletter-box"></div>
+            </div>
+            <div class="footer-licence">
+                <div class="footer-licence-text">
+                    <p>© Aperture Photography, Inc. All rights reserved. <span>Licensing.</span></p>
+                </div>
+                <div class="footer-licence-icons">
+                    <svg width="24" height="24">
+                        <use href="./img/sprite.svg#twitter"/>
+                    </svg>
+                    <svg width="24" height="24">
+                        <use href="./img/sprite.svg#instagram"/>
+                    </svg>
+                    <svg width="24" height="24">
+                        <use href="./img/sprite.svg#facebook"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
